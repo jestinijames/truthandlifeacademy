@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_sections_whos",
+  "info": {
+    "displayName": "Who",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bio": {
+      "type": "text"
+    },
+    "picture": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "achievements": {
+      "type": "json"
+    },
+    "competencies": {
+      "type": "json"
+    }
+  }
+}

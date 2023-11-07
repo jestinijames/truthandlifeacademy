@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_sections_tabs",
+  "info": {
+    "displayName": "Tabs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "theHolyScriptures": {
+      "type": "richtext"
+    },
+    "god": {
+      "type": "richtext"
+    },
+    "man": {
+      "type": "richtext"
+    },
+    "salvation": {
+      "type": "richtext"
+    },
+    "church": {
+      "type": "richtext"
+    },
+    "angels": {
+      "type": "richtext"
+    },
+    "lastThings": {
+      "type": "richtext"
+    },
+    "picture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "beliefs": {
+      "type": "json"
+    }
+  }
+}

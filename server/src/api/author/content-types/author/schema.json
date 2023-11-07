@@ -1,0 +1,69 @@
+{
+  "kind": "collectionType",
+  "collectionName": "authors",
+  "info": {
+    "singularName": "author",
+    "pluralName": "authors",
+    "displayName": "Author",
+    "description": "Create authors for your content"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "avatar": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "email": {
+      "type": "string"
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article",
+      "mappedBy": "authorsBio"
+    },
+    "podcasts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::podcast.podcast",
+      "mappedBy": "authorsBio"
+    },
+    "description": {
+      "type": "text"
+    },
+    "subjects": {
+      "type": "string"
+    },
+    "social": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.social-link"
+    },
+    "role": {
+      "type": "string"
+    },
+    "subs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.achievement"
+    },
+    "courses": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::course.course",
+      "mappedBy": "authors"
+    }
+  }
+}

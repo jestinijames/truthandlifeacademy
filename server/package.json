@@ -1,0 +1,32 @@
+{
+  "name": "truth-and-life-academy-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A mind for truth and a passion for God",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.15.0",
+    "@strapi/plugin-seo": "^1.9.6",
+    "@strapi/plugin-users-permissions": "4.15.0",
+    "@strapi/strapi": "4.15.0",
+    "better-sqlite3": "8.4.0",
+    "build": "^0.1.4",
+    "strapi-plugin-populate-deep": "^3.0.0"
+  },
+  "author": {
+    "name": "Jestin James"
+  },
+  "strapi": {
+    "uuid": "42b937aa-0f16-4a30-bb55-95f60ec03b48"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

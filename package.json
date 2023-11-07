@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "client": "pnpm dev --prefix ../client/",
+    "server": "pnpm dev --prefix ../server/",
+    "clear": "cd client && rm -rf .next && rm -rf cache",
+    "setup:client": "cd client && pnpm",
+    "setup:server": "cd server && pnpm",
+    "setup": "pnpm install && pnpm setup:client && pnpm setup:server",
+    "dev": "pnpm clear && concurrently \"cd client && pnpm dev\" \"cd server && pnpm develop\"",
+    "repo:upstream": "git fetch upstream && git merge upstream/main"
+  },
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}

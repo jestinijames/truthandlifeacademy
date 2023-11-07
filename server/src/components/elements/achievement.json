@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_elements_achievements",
+  "info": {
+    "displayName": "achievement",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "achtitle": {
+      "type": "string",
+      "required": true
+    },
+    "achdesc": {
+      "type": "string"
+    }
+  }
+}

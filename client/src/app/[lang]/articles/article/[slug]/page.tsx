@@ -5,7 +5,7 @@
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
-"use client";
+// "use client";
 
 import ArticlePage from "@/views/article-page";
 import type {Metadata} from "next";

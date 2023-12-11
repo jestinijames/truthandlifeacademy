@@ -10,13 +10,17 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "4.15.0",
+    "@strapi/plugin-i18n": "4.15.5",
     "@strapi/plugin-seo": "^1.9.6",
-    "@strapi/plugin-users-permissions": "4.15.0",
-    "@strapi/strapi": "4.15.0",
+    "@strapi/plugin-users-permissions": "4.15.5",
+    "@strapi/strapi": "^4.14.4",
     "better-sqlite3": "8.4.0",
     "build": "^0.1.4",
-    "strapi-plugin-populate-deep": "^3.0.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4",
+    "strapi-plugin-populate-deep": "^3.0.0",
+    "styled-components": "^5.3.11"
   },
   "author": {
     "name": "Jestin James"
@@ -25,7 +29,7 @@
     "uuid": "42b937aa-0f16-4a30-bb55-95f60ec03b48"
   },
   "engines": {
-    "node": ">=14.19.1 <=18.x.x",
+    "node": ">=18.0.0 <=20.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
